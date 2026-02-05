@@ -1,0 +1,25 @@
+/* Image sizing for band photo */
+body { 
+    background-color: rgb(113, 38, 82);
+    color:rgb(246, 205, 129);
+}
+.santiago_chile {
+	max-width: 320px;
+	width: 100%;
+	height: auto;
+	margin: 0.5rem auto;
+     border-color: #e0b145;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+/* Optional: make images slightly smaller on small screens */
+@media (max-width: 420px) {
+	.santiago_chile {
+		max-width: 220px;
+	}
+}
+
+
+
